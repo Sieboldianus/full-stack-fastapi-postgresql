@@ -123,10 +123,10 @@ Nevertheless, if it doesn't detect a change but a syntax error, it will just sto
 To test the backend run:
 
 ```bash
-DOMAIN=backend sh ./script-test.sh
+DOMAIN=backend sh ./scripts/test.sh
 ```
 
-The file `./script-test.sh` has the commands to generate a testing `docker-stack.yml` file from the needed Docker Compose files, start the stack and test it.
+The file `./scripts/test.sh` has the commands to generate a testing `docker-stack.yml` file from the needed Docker Compose files, start the stack and test it.
 
 The tests run with Pytest, modify and add tests to `./backend/app/app/tests/`.
 
